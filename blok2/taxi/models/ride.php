@@ -17,7 +17,7 @@ class Ride {
         $this->day = $day;
     }
 
-    public function fare() {
+    public function fare(){
         if($this->day === 'Monday' && $this->startTime > 700){
             return ($this->rideDistance*0.5) + ($this->rideTime*0.17);
         } elseif($this->day === 'Tuesday' || $this->day === 'Wednesday' || $this->day === 'Thursday') {

@@ -37,9 +37,10 @@
                 <?php
                     // ALL THE CLASSES WITH THEIR BEHAVIOR GO IN HERE.
                     require 'models/company.php';
-                    require 'models/rides.php';
+                    require 'models/ride.php';
                     // YOUR APP IS RUN FROM A MAIN FILE.
                     require 'controllers/app.php';
+
                 ?>
             </p>
         </div>
